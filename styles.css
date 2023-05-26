@@ -11,13 +11,14 @@ body{
 
 .main-container{
     background-color: #ffffff;
-    padding: 20px;
+    padding: 2px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     
     height: 50vh;
-    margin: 100px;
+    width: 100vh;
+    margin: auto;
 
 
 }
