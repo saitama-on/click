@@ -1,0 +1,86 @@
+*{
+    border: none;
+    margin: none;
+    padding: none;
+}
+
+body{
+    background-color: #f3e5f5;
+    
+}
+
+.main-container{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    
+    height: 50vh;
+    margin: 100px;
+
+
+}
+#btn{
+
+    background-color: rgb(82, 142, 238);
+    width: 5vh;
+    max-width: max-content;
+    border-radius: 2px;
+    text-align: center;
+}
+
+#clickme{
+    width: 50vh;
+    height: 25.0vh;
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+}
+
+#clickme:hover{
+    background-color: aqua;
+    cursor: pointer;
+    scale: 0.95;
+
+}
+#clickme:disabled{
+
+    background-color: rgb(233, 233, 152);
+}
+
+
+#refresh{
+    height: 25vh;
+    width: 15vh;
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+}
+#refresh:hover{
+    background-color: rgb(223, 78, 78);
+    scale: 0.95;
+    cursor: pointer;
+}
+
+#start{
+    width:15vh;
+    height: 5vh;
+    margin-top: 0.5vh;
+    transition-delay: 0.1s;
+    transition-duration: none;
+}
+#start:hover{
+
+    background-color: aquamarine;
+    scale: 0.95;
+    cursor: pointer;
+}
+
+.leaderboard{
+    background-color: #fff;
+    height: 15.0vh;
+    width: 30vh;
+    text-align: center;
+    
+
+
+}
