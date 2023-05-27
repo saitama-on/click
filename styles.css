@@ -55,6 +55,7 @@ body{
     width: 15vh;
     transition-delay: 0.1s;
     transition-duration: 0.5s;
+    
 }
 #refresh:hover{
     background-color: rgb(223, 78, 78);
@@ -86,8 +87,23 @@ body{
 
 }
 
+#username_btn{
+    margin: 2vh;
+}
 
-@media only screen and (max-width:700px){
+#gobtn{
+
+    width: 7vh;
+    transition-duration: 0.2s;
+}
+#gobtn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+@media screen and (max-width:780px){
 
     body {
         background-color: hotpink;
@@ -95,10 +111,35 @@ body{
 
     #clickme{
 
-        width: 10vh;
+        width:10vh;
     }
     #refresh{
 
         width: 5vh;
     }
+    .main-container{
+
+        width: 780px;
+    }
+}
+
+#username_holder{
+
+    
+    width: 50vh;
+    height: 20vh;
+    size: 200;
+    border: solid aquamarine 0.3vh;
+}
+
+#go{
+
+    height: 10vh;
+    width: 10vh;
+    border-radius: 2vh;
+    margin: 2vh;
+
+    
+    
+
 }
